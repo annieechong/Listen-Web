@@ -10,6 +10,11 @@ h2 {
     font-family: Futura;
     font-size: 34px;
     color: black;
+    
+}
+
+img {
+    border-radius: 50%;
 }
 
 /* The sidebar menu */
@@ -18,7 +23,7 @@ h2 {
     width: 160px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     border-right: 2px solid;
-    z-index: 1; /* Stay on top */
+    /*z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     background-color: white;
@@ -37,7 +42,6 @@ h2 {
     display: block;
   }
   
-  /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
     color: black;
   }
@@ -45,6 +49,40 @@ h2 {
   .sidenav a:active {
     color: black;
   }
+
+  .summaries {
+    padding: 20px;
+
+  }
+
+  .topGenres {
+    width:500px;
+    height:350px;
+    border:1px solid #B6B3B3;
+    border-radius: 20px;
+    display:inline-block;
+    margin-left: 30px;
+    margin-right: 25px;
+  }
+
+  .topArtists {
+    width:500px;
+    height:350px;
+    border:1px solid #B6B3B3;
+    border-radius: 20px;
+    display:inline-block;
+    margin-left: 25px;
+  }
+
+  .topSongsWeek {
+    width:1050px;
+    height:350px;
+    border:1px solid #B6B3B3;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
   
   /* Style page content */
   .main {
