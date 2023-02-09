@@ -6,6 +6,7 @@ import { LibraryComponent } from './library';
 import { ProfileComponent } from './profile';
 
 const routes: Routes = [
+    { path: 'feed', component: FeedComponent },
     { path: 'friends', component: FriendsComponent },
     { path: 'library', component: LibraryComponent },
     { path: 'profile', component: ProfileComponent }
