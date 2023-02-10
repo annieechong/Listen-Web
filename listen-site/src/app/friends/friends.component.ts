@@ -1,4 +1,10 @@
 import { Component } from '@angular/core';
 
-@Component({ templateUrl: 'friends.component.html' })
-export class FriendsComponent {}
+@Component({
+  selector: 'app-friends',
+  templateUrl: './friends.component.html',
+  styleUrls: ['./friends.component.css']
+})
+export class FriendsComponent {
+
+}

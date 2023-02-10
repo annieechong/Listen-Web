@@ -1,4 +1,10 @@
 import { Component } from '@angular/core';
 
-@Component({ templateUrl: 'feed.component.html' })
-export class FeedComponent {}
+@Component({
+  selector: 'app-feed',
+  templateUrl: './feed.component.html',
+  styleUrls: ['./feed.component.css']
+})
+export class FeedComponent {
+
+}
