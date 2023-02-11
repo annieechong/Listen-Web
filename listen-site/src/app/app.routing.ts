@@ -7,7 +7,7 @@ import { LibraryComponent } from './library/library.component';
 import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
-    { path: '', component: FeedComponent },
+    { path: '', component: ProfileComponent },
     { path: 'feed', component: FeedComponent },
     { path: 'friends', component: FriendsComponent },
     { path: 'library', component: LibraryComponent },
