@@ -1,0 +1,55 @@
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  border-right: 2px solid;
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  
+}
+
+/* The navigation menu links */
+.sidenav a {
+  font-family: Geo;
+  line-height: 1.8;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.sidenav a:active {
+  color: black;
+}
+
+.sidenav a:focus {
+  color: black;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  
+  padding: 6px 8px 6px 40px;
+}
+
+p {
+  font-family: Geo;
+  line-height: 1.8;
+  text-decoration: none;
+  font-size: 20px;
+  color: #474747;
+  display: block;
+  align-items: center;
+}
