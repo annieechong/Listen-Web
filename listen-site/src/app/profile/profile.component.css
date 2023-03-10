@@ -10,11 +10,11 @@ h2 {
     font-family: Futura;
     font-size: 34px;
     color: black;
-    text-indent: 40px;
+    text-indent: 28px;
 }
 
   .summaries {
-    padding: 20px;
+    padding: 5px;
   }
 
   .topGenres {
@@ -53,7 +53,7 @@ h2 {
     height:350px;
     border:1px solid #B6B3B3;
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 45px;
     margin-left: 30px;
 
     font-size: 18px;
