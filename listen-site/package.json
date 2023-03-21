@@ -21,6 +21,7 @@
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "server": "^1.0.38",
+    "spotify-web-api-js": "^1.5.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
